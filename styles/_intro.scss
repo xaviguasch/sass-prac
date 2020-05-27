@@ -1,11 +1,7 @@
-
-
 .introduction {
   min-height: 100vh;
-  display: flex;
+  @include flex(column, space-around);
   flex-direction: column;
-  justify-content: space-around;
-
   align-items: center;
 
   .box {
